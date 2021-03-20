@@ -1,0 +1,19 @@
+{
+  "name": "javascript-library-cjs",
+  "version": "1.0.0",
+  "description": "Ejemplo de librería simple usando CommonJS",
+  "main": "index.js",
+  "module": "index.js",
+  "exports": {
+    "./": "./index.js",
+    "./math":"./math/math.js",
+    "./util":"./util/util.js" 
+  },
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
